@@ -7,15 +7,14 @@ import materialui from '../assets/svg/skills/materialui.svg'
 import css from '../assets/svg/skills/css.svg'
 import html from '../assets/svg/skills/html.svg'
 import javascript from '../assets/svg/skills/javascript.svg'
-import { red } from '@material-ui/core/colors'
 export const projectsData = [
     {
         id: 1,
         projectName: 'NETFLIX-REPLICA',
-        projectDesc: '',
+        projectDesc: 'A Frontend clone, replicating the user flow and behaviour of Netflix.in .',
         projectResp: "Areas Of Responsibilities",
-        responsibility: ["UserAuthentication", "Integration of Routes", "Cart Page,Place Order Page"],
-        tags: [react, redux,materialui],
+        responsibility: ["2 Main Pages with Filter and Search", "Redux Integration", "User Authentication"],
+        tags: [react, redux, materialui],
         code: 'https://github.com/04Mansigarg/Netflix',
         demo: 'https://netflix-eight-iota.vercel.app/',
         image: one
@@ -26,7 +25,7 @@ export const projectsData = [
         projectDesc: 'All round Frontend integrated clone mimicing the user flow and behaviour of Myntra.com.',
         projectResp: "Areas Of Responsibilities",
         responsibility: ["UserAuthentication", "Integration of Routes", "Cart Page,Place Order Page"],
-        tags: [react,redux,materialui],
+        tags: [react, redux, materialui],
         code: 'https://github.com/04Mansigarg/Myntra_clone',
         demo: 'https://myntra-clone-gilt.vercel.app/',
         image: two
@@ -34,15 +33,17 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'COLORLIB-TOURBI',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
+        projectDesc: 'A static clone of a Web Application that lets user select their dream tour.',
         projectResp: "Areas Of Responsibilities",
-        responsibility: ["UserAuthentication", "Integration of Routes", "Cart Page,Place Order Page"],
-        tags: [html,css,javascript],
+        responsibility: ["Developed fully responsive: About and Element page", "Worked on the Footer Part of Website"],
+        tags: [html, css, javascript],
         code: 'https://github.com/04Mansigarg/Tourbi_clone',
         demo: 'https://tourbiclone.netlify.app/',
         image: three
     },
 ]
+
+
 
 
 // Do not remove any fields.
