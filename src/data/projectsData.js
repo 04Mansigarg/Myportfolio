@@ -11,10 +11,11 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'NETFLIX-REPLICA',
-        projectDesc: 'A Frontend clone, replicating the user flow and behaviour of Netflix.in .',
+        projectDesc: 'A Frontend clone, replicating the user flow and behaviour of Netflix.in.',
         projectResp: "Areas Of Responsibilities",
         responsibility: ["2 Main Pages with Filter and Search", "Redux Integration", "User Authentication"],
         tags: [react, redux, materialui],
+        name: ["React", "Redux", "MaterialUi"],
         code: 'https://github.com/04Mansigarg/Netflix',
         demo: 'https://netflix-eight-iota.vercel.app/',
         image: one
@@ -22,10 +23,11 @@ export const projectsData = [
     {
         id: 2,
         projectName: 'MYNTRA-REPLICA',
-        projectDesc: 'All round Frontend integrated clone mimicing the user flow and behaviour of Myntra.com.',
+        projectDesc: 'All round Frontend integrated clone, replicating the user flow and behaviour of Myntra.com.',
         projectResp: "Areas Of Responsibilities",
         responsibility: ["UserAuthentication", "Integration of Routes", "Cart Page,Place Order Page"],
         tags: [react, redux, materialui],
+        name: ["React", "Redux", "MaterialUi"],
         code: 'https://github.com/04Mansigarg/Myntra_clone',
         demo: 'https://myntra-clone-gilt.vercel.app/',
         image: two
@@ -37,6 +39,7 @@ export const projectsData = [
         projectResp: "Areas Of Responsibilities",
         responsibility: ["Developed fully responsive: About and Element page", "Worked on the Footer Part of Website"],
         tags: [html, css, javascript],
+        name: ["HTML", "CSS", "Javascript"],
         code: 'https://github.com/04Mansigarg/Tourbi_clone',
         demo: 'https://tourbiclone.netlify.app/',
         image: three

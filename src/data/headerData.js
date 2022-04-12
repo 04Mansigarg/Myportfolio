@@ -1,4 +1,4 @@
-import profile from "../assets/png/PortfolioProfile.jpeg"
+import profile from "../assets/png/1.jpeg"
 
 export const headerData = {
     name: 'Mansi Garg',

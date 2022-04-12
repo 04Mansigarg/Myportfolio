@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
 import './SingleProject.css';
 
-function SingleProject({ id, name, desc, tags, code, demo, image, theme, resp, responsibility }) {
+function SingleProject({ id, name, desc, tags, tagsname, code, demo, image, theme, resp, responsibility }) {
     const useStyles = makeStyles((t) => ({
         iconBtn: {
             display: 'flex',
@@ -97,16 +97,16 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme, resp, r
                         color: theme.tertiary,
                     }}
                 >
-                   <p>{desc}</p>
-                   <p style={{textAlign:"left",marginTop:"1em",marginBottom:".5em"}}>
-                   {resp}
-                   
-                    <ul>{
-                        responsibility.map((ele) => {
-                            return <li key={ele.id}>{ele}</li>
-                        })
-                    }
-                    </ul>
+                    <p>{desc}</p>
+                    <p style={{ textAlign: "left", marginTop: "1em", marginBottom: ".5em" }}>
+                        {resp}
+
+                        <ul>{
+                            responsibility.map((ele) => {
+                                return <li key={ele.id}>{ele}</li>
+                            })
+                        }
+                        </ul>
                     </p>
                 </div>
                 <div
@@ -116,9 +116,13 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme, resp, r
                         color: theme.tertiary80,
                     }}
                 >
-                    {tags.map((tag, id) => (
-                        <img className='stackImg' key={id} src={tag} alt="imag"/>
-                   ))}
+                    <div className='iconsofdiv'>
+                        {tags.map((tag, id) => (
+                            <img className='stackImg' key={id} src={tag} alt="imag" />
+                        ))}
+                    </div>
+
+                    <div className='tagsofdiv'>{tagsname.map((name, id) => (<h6 key={id}>{name}</h6>))}</div>
                 </div>
             </div>
         </Fade>
