@@ -18,7 +18,7 @@ export const projectsData = [
         tags: [react, redux, express],
         name: ["React", "Redux", "Express"],
         code: 'https://github.com/04Mansigarg/Netflix',
-        demo: 'netflix-clone-two-black.vercel.app/',
+        demo: 'https://netflix-clone-two-black.vercel.app/',
         image: one
     },
     {
