@@ -5,24 +5,25 @@ import redux from '../assets/svg/skills/redux.svg'
 import react from '../assets/svg/skills/react.svg'
 import materialui from '../assets/svg/skills/materialui.svg'
 import css from '../assets/svg/skills/css.svg'
+import express from '../assets/svg/skills/express.svg'
 import html from '../assets/svg/skills/html.svg'
 import javascript from '../assets/svg/skills/javascript.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'NETFLIX-REPLICA',
+        projectName: 'NETFLIX-CLONE',
         projectDesc: 'A Frontend clone, replicating the user flow and behaviour of Netflix.in.',
         projectResp: "Areas Of Responsibilities",
-        responsibility: ["2 Main Pages with Filter and Search", "Redux Integration", "User Authentication"],
-        tags: [react, redux, materialui],
-        name: ["React", "Redux", "MaterialUi"],
+        responsibility: ["2 Main Pages with Filter and Search", "Redux Integration", "User Authentication", "Backend Integration"],
+        tags: [react, redux, express],
+        name: ["React", "Redux", "Express"],
         code: 'https://github.com/04Mansigarg/Netflix',
-        demo: 'https://netflix-eight-iota.vercel.app/',
+        demo: 'netflix-clone-two-black.vercel.app/',
         image: one
     },
     {
         id: 2,
-        projectName: 'MYNTRA-REPLICA',
+        projectName: 'MYNTRA-CLONE',
         projectDesc: 'All round Frontend integrated clone, replicating the user flow and behaviour of Myntra.com.',
         projectResp: "Areas Of Responsibilities",
         responsibility: ["UserAuthentication", "Integration of Routes", "Cart Page,Place Order Page"],
