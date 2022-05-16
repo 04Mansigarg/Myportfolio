@@ -79,9 +79,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
 }
 
 
